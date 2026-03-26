@@ -1,0 +1,19 @@
+name: ahda_app
+description: تطبيق العهدة لإدارة وارد ومنصرف ورصيد
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+  intl: ^0.17.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
